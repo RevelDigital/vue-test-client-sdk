@@ -3,7 +3,7 @@ import {createPlayerClient, PlayerClient} from "@reveldigital/client-sdk";
 import {reactive} from "vue";
 
 
-  const title = 'ng-test-client-sdk';
+  const title = 'vue-test-client-sdk';
   let sdk: PlayerClient;
   let revel = reactive({
     state : 'Not ready',
